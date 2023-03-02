@@ -1,0 +1,50 @@
+{
+  "name": "finrae",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider; next dev"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.1",
+    "bootstrap-vue-3": "^0.3.3",
+    "core-js": "^3.6.5",
+    "lightgallery": "^2.6.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.0.13",
+    "vue3-carousel": "^0.1.46"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.15",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^10.3.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
